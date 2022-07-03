@@ -1,0 +1,38 @@
+#form {
+    width: 400px;
+    margin: 20px auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+img{
+    width: 200px;
+    height: auto;
+}
+button{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(99, 30, 164);
+    color: aliceblue;
+    margin-top: 20px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+}
+input{
+    flex: 1;
+}
+.show{
+    margin-top: 20px;
+    border: 5px solid rgb(99, 30, 164);
+    padding: 20px;
+    border-radius: 10px;
+}
+.hidden{
+    display: none;
+}
